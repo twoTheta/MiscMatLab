@@ -1,6 +1,6 @@
 close all
 clear
-vals=101:300;
+vals=1:300;
 vals=vals(isprime(vals));
 
 for i = 1:length(vals)
